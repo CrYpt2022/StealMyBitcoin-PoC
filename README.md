@@ -1,3 +1,7 @@
+<p align="center">
+  <sub>sponsored with ❤️ by</sub>&nbsp;<a href="https://hextree.io" title="he didnt want a dono so i gave him this banner, ty mr liveoverflow for helping"><img src="https://i.ibb.co/fVZ3Nvcx/hextree.jpg" alt="hextree.io" height="22" align="middle"></a>
+</p>
+
 # Steal My Bitcoin CTF proof of concept
 
 > One live PHP callback against the Steal My Bitcoin challenge, start to finish, in a single standard-library Python file.
@@ -14,7 +18,7 @@ This can probably be done easier without all the extra debug crap and as in my J
 > [!NOTE]
 > ⚠️ **Honestly please clean it up or make your own better version that isn't crumpled by Sol.** ⚠️
 
-**Everything below is written against the Docker lab as a PoC**, not the live challenge. The lab is a local Alpine PHP 8.4.26 CLI server behind nginx, which is the same build and worker model the offsets were calibrated on. [Stand it up in a minute](#the-lab) and the whole chain runs end to end on your own machine. The live run that actually solved the challenge is kept as a historical note at the [bottom](#the-live-run-that-solved-it).
+**Everything below is written against the Docker lab**, not the live challenge. The lab is a local Alpine PHP 8.4.26 CLI server behind nginx, which is the same build and worker model the offsets were calibrated on. [Stand it up in a minute](#the-lab) and the whole chain runs end to end on your own machine. The live run that actually solved the challenge is kept as a historical note at the [bottom](#the-live-run-that-solved-it).
 
 ```
   stage                 what goes out                        what comes back
@@ -336,5 +340,5 @@ Every tuned number lives in the calibration block at the top or in the `STAGES` 
 
 ## Thanks
 
-- [cloudlandsdev](https://news.ycombinator.com/item?id=50224916) for the challenge - verification `"$744#6-'rugdrbyr"`
+- [cloudlandsdev](https://news.ycombinator.com/item?id=50224916) for `"$744#6-'rugdrbyr"`
 - [LiveOverflow](https://www.youtube.com/liveoverflow) who makes amazing videos and was very helpful when I needed to contact the creator :)
